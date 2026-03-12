@@ -30,7 +30,7 @@ function connect() {
     setStatus("Connecting...")
     document.getElementById("clickBtn").disabled = true
 
-    ws = new WebSocket("wss://clickcounterserver.onrender.com")
+    ws = new WebSocket("wss://clickcounterserver-1.onrender.com")
 
     ws.onopen = () => {
         setStatus("Connected")
